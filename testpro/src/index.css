@@ -1,0 +1,89 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.editor{
+  width: 500px;
+}
+
+.chat{
+  margin-top: 0;
+  padding-top: 0%;
+}
+.chat button{
+  border: 1px solid grey;
+  outline: 0;
+  width: 150px;
+  height: 30px;
+  background: transparent;
+  border-radius: 25px;
+}
+.inbox{
+  margin-left: 100px;
+  margin-top: 0;
+  padding-top: 0%;
+  flex: 1;
+  
+}
+.inbox .inbox-mes{
+  height: 400px;
+  overflow-x: scroll;
+}
+.inbox .inbox-mes::-webkit-scrollbar{
+  visibility: hidden;
+}
+.chatinput{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: rgb(187, 153, 153);
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+}
+.chatinput input{
+  width: 300px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+}
+.chatinput button{
+  border: 0;
+  outline: 0;
+  background: none;
+}
+.chatinput button span{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.login input[type='text'] {
+  border-radius: 30px;
+  height: 30px;
+  width: 240px;
+  border: 1px solid blue;
+  background: transparent;
+}
+.login input[type='password'] {
+  border-radius: 30px;
+  height: 30px;
+  width: 240px;
+  border: 1px solid blue;
+  background: transparent;
+}
+.login button{
+  border-radius: 30px;
+  height: 30px;
+  width: 120px;
+  border: 0;
+  outline: 0;
+  background: cyan;
+}
